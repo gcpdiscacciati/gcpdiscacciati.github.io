@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contato - What's Your Game</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css?v=10">
+		<script src="https://kit.fontawesome.com/329b0b582b.js" crossorigin="anonymous"></script>
+		<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+		<link rel="shortcut icon" href="favicon.ico">
+	</head>
+	<body>
+		<header>
+			<div id="logo"><a href="index.html" class="links"><i class="fas fa-dice-d20"></i>What's Your Game?</a></div>
+						
+			<nav>
+				<a href="index.html" class="links"><i class="fab fa-fort-awesome"></i>Home</a>
+				
+			</nav>
+		</header>
+		<div id="contato">
+			<section>
+				<h1>Fale Conosco</h1>
+				<form method="POST">
+					<div class="interno">
+						<label>E-mail: <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com.br"></label>
+					</div>
+					<div class="interno">
+						<label>Categoria:
+							<select name="frm_cat">
+								<option>Videogames</option>
+								<option>Board Games</option>
+								<option>Card Games</option>
+								<option>Dúvidas</option>
+								<option>Reclamações</option>
+								<option>Sugestões</option>
+								<option>Outro</option>
+							</select>
+						</label>
+					</div>
+					<div class="interno">
+						<label>Envie sua mensagem:
+							<textarea placeholder="Escreva sua mensagem" name="frm_fav"></textarea>
+						</label>
+					</div>
+					<div class="interno">
+						Você joga jogos digitais?
+						<label>Sim <input type="radio" name="frm_question"></label>
+						<label>Não <input type="radio" name="frm_question"></label>
+					</div>
+					<div class="interno">
+						Se sim, qual plataforma?
+						<label>PC <input type="checkbox" name="frm_plat"></label>
+						<label>PlayStation <input type="checkbox" name="frm_plat"></label>
+						<label>Xbox <input type="checkbox" name="frm_plat"></label>
+						<label>Switch <input type="checkbox" name="frm_plat"></label>
+						<label>Mobile <input type="checkbox" name="frm_plat"></label>
+						<label>Não jogo <input type="checkbox" name="frm_plat"></label>
+					</div>
+									
+					<input type="submit" id="botao" class="interno" name="" value="Enviar">
+
+				</form>
+			</section>
+		</div>
+
+		<footer>Copyright © Giovanne Discacciati</footer>
+
+	</body>
+</html>

@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	color: white;
+}
+
+body{
+	background-color: #444;
+}
+
+header{
+	background-color: black;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 15px;
+}
+
+#logo{
+	float: left;
+	font-family: Fredoka One;
+	font-size: 20px;
+}
+
+nav{
+	float: right;
+
+}
+
+.links{
+	text-decoration: none;
+	font-family: Fredoka One;
+	font-size: 20px;
+}
+
+i{
+	margin-right: 5px;
+}
+
+h1, h3, h4{
+	text-decoration: underline;
+	margin-top: 15px;
+}
+
+p{
+	margin-top: 10px;
+}
+
+.descricao{
+	margin-top: 5px;
+	margin-left: 20px; 
+}
+
+li{
+	margin-top: 10px;
+}
+
+img{
+	margin-top: 10px;
+	margin-left: 145px;
+	width: 480px;
+	height: 270px;
+
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 10px 0px 10px 127px;
+
+
+}
+
+th{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #2998f3;
+}
+
+td{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #aaa;
+}
+
+tr:nth-child(odd){
+	background-color: #777;
+}
+
+#secao1{
+	width: 800px;
+	text-align: justify;
+	overflow: hidden;
+	padding-left: 15px;
+}
+
+.nivel1{
+	float: left;
+	margin-left: 30px; 
+}
+
+.nivel2{
+	clear: both;
+	margin-left: 20px;
+}
+
+.nivel3{
+	margin-left: 20px;
+}
+
+#secao2{
+	width: 800px;
+	text-align: justify;
+	overflow: hidden;
+	padding-left: 15px;	
+}
+
+#contato{
+	float: left;
+	margin-left: 15px;
+	overflow: hidden;
+}
+
+.interno{
+	margin: 15px; 
+}
+
+#email{
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+textarea{
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+	vertical-align: middle;
+	width: 300px;
+	height: 100px;
+}
+
+select{
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+option{
+	color: black;
+}
+
+#botao{
+	background-color: #111;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 0px;
+	font-size: 15px;
+}
+
+footer{
+	clear: both;
+	margin-top: 20px;
+}
