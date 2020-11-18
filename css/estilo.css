@@ -1,0 +1,354 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	color: white;
+}
+
+body{
+	background-color: #444;
+
+}
+
+
+header{
+	background-color: black;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 15px;
+	position: fixed;
+	top: 0;
+	width: calc(100% - 30px);
+}
+
+#logo{
+	float: left;
+	font-family: Fredoka One;
+	font-size: 20px;
+}
+
+nav{
+	float: right;
+
+}
+
+.links{
+	text-decoration: none;
+	font-family: Fredoka One;
+	font-size: 20px;
+}
+
+i{
+	margin-right: 5px;
+}
+
+h1, h2, h4{
+	text-decoration: underline;
+	margin-top: 15px;
+	font-family: Fredoka One;
+	font-weight: normal;
+	
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin-right: 15px;
+}
+
+p{
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.descricao{
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: 18px; 
+}
+
+li{
+	margin-top: 10px;
+}
+
+img{
+	margin-top: 20px;
+	margin-left: calc(50% - (480px / 2));
+	width: 480px;
+	height: 270px;
+}
+
+img#imagem1{
+	margin-top: 50px;
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: calc(50% - (550px / 2));
+	width: 550px;
+}
+
+th{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #2998f3;
+}
+
+td{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #aaa;
+}
+
+tr:nth-child(odd){
+	background-color: #777;
+}
+
+#secao1{
+	width: 90vw;
+	margin-left: calc(50% - (90vw / 2));
+	margin-top: 50px;
+	margin-bottom: 60px;
+	text-align: justify;
+	overflow: hidden;
+	padding-left: 15px;
+}
+
+.nivel1{
+	float: left;
+	margin-left: 30px; 
+}
+
+.nivel2{
+	clear: both;
+	margin-left: 20px;
+	font-size: 20px
+}
+
+.nivel3{
+	margin-left: 20px;
+}
+
+#secao2{
+	/*width: 800px;*/
+	/*clear: both;*/
+	margin-top: 70px;
+	text-align: justify;
+	overflow: hidden;
+	padding-left: 15px;	
+}
+
+#contato{
+	float: left;
+	margin-left: 15px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+
+.interno{
+	margin: 15px; 
+}
+
+#email{
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+textarea{
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+	vertical-align: middle;
+	width: 300px;
+	height: 100px;
+}
+
+select{
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+option{
+	color: black;
+}
+
+#botao{
+	background-color: #111;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 0px;
+	font-size: 15px;
+}
+
+footer{
+	background-color: black;
+	clear: both;
+	margin-top: 20px;
+	width: calc(100% - 30px);
+	height: 50px;
+	/*line-height: 20px;*/
+	padding: 0px 15px;
+	position: fixed;
+	bottom: 0;
+}
+
+::selection{
+	background-color: white;
+	color: black;
+}
+
+li > a{
+	text-decoration: none;
+}
+
+li > a:hover{
+	text-decoration: underline;
+}
+
+li > a:active{
+	font-weight: bold;
+}
+
+ol > li{
+	
+	width: 45%;
+}
+
+ol > li::marker{
+	font-size: 1.5em;
+}
+
+#coluna2{
+	margin-left: 70px;
+}
+
+h1#primeiro + p{
+	font-size: 20px;
+	width: 95%;
+	margin-left: 15px;
+} 
+
+div#secao2 h2{
+	text-align: center;
+}
+
+#copyright{
+	float: left;
+	width: 50%;
+	line-height: 50px;
+}
+
+div#copyright ~ div{
+	width: 50%;
+	float: right;
+	text-align: right;
+	line-height: 25px;
+	
+}
+
+
+@media (max-width: 1024px) {
+	img{
+		
+		margin-left: calc(50% - (50% / 2));
+	}
+
+	ol > li{
+		width: 90%;
+	}
+
+	li.nivel2 > ul > div{
+		width: 90%
+	}
+}
+
+@media (max-width: 768px) {
+	
+	#secao1{
+		margin-left: 20px;
+		width: 90%
+	}
+	
+	ol > li{
+		width: 90%;
+	}
+
+	li.nivel1 > h2{
+		text-align: left;
+	}
+
+	li.nivel2 > ul > div{
+		width: 90%
+	}
+
+	table{
+		margin: 15px 0px;
+		font-size: 14px;
+		width: 100%; 
+	}
+
+	th{
+		border: 1px solid black;
+		padding: 5px;
+		background-color: #2998f3;
+	}
+
+	td{
+		border: 1px solid black;
+		padding: 5px;
+	}
+
+	li.nivel3{
+		margin-left: 0px;
+	}
+
+	li.nivel3 ~ .descricao{
+		margin-left: 0px;
+
+	}
+
+	img{
+		width: 80%;
+		height: 55%;
+		margin-left: 10%;
+		
+	}
+
+
+}
+
+@media(max-width: 500px){
+	
+	.links{
+		font-size: 14px;
+	}
+
+	footer div{
+		font-size: 14px;
+	}
+}
+
+
+/*@media(orientation: portrait){
+	#secao1{
+		margin: 50px;
+		padding: 0px;
+	}
+
+	ol > li{
+		width: 80%;
+	}
+
+	li.nivel2 > ul > div{
+		width: 80%
+	}
+}*/
