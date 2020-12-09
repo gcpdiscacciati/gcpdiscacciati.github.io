@@ -18,12 +18,15 @@
 				
 			</nav>
 		</header>
+
+		<div id="alterna_modo"><label><i class="fas fa-adjust"></i>Modo Claro</label></div>
+
 		<div id="contato">
 			<section>
 				<h1>Fale Conosco</h1>
-				<form method="POST">
+				<form name="form1" method="POST" action="contato.html">
 					<div class="interno">
-						<label>E-mail: <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com.br"></label>
+						<label>E-mail: <input type="text" class="frm_resp" id="email" name="email" placeholder="exemplo@exemplo.com.br"></label>
 					</div>
 					<div class="interno">
 						<label>Categoria:
@@ -40,25 +43,26 @@
 					</div>
 					<div class="interno">
 						<label>Envie sua mensagem:
-							<textarea placeholder="Escreva sua mensagem" name="frm_fav"></textarea>
+							<textarea placeholder="Escreva sua mensagem" class="frm_resp" name="frm_fav"></textarea>
 						</label>
 					</div>
 					<div class="interno">
 						Você joga jogos digitais?
-						<label>Sim <input type="radio" name="frm_question"></label>
-						<label>Não <input type="radio" name="frm_question"></label>
+						<label>Sim <input type="radio" class="frm_resp" name="frm_question"></label>
+						<label>Não <input type="radio" class="frm_resp" name="frm_question"></label>
 					</div>
 					<div class="interno">
 						Se sim, qual plataforma?
-						<label>PC <input type="checkbox" name="frm_plat"></label>
-						<label>PlayStation <input type="checkbox" name="frm_plat"></label>
-						<label>Xbox <input type="checkbox" name="frm_plat"></label>
-						<label>Switch <input type="checkbox" name="frm_plat"></label>
-						<label>Mobile <input type="checkbox" name="frm_plat"></label>
-						<label>Não jogo <input type="checkbox" name="frm_plat"></label>
+						<label>PC <input type="checkbox" class="frm_resp" name="frm_plat"></label>
+						<label>PlayStation <input type="checkbox" class="frm_resp" name="frm_plat"></label>
+						<label>Xbox <input type="checkbox" class="frm_resp" name="frm_plat"></label>
+						<label>Switch <input type="checkbox" class="frm_resp" name="frm_plat"></label>
+						<label>Mobile <input type="checkbox" class="frm_resp" name="frm_plat"></label>
+						<label>Não jogo <input type="checkbox" class="frm_resp" name="frm_plat"></label>
 					</div>
 									
-					<input type="submit" id="botao" class="interno" disabled="disabled" name="" value="Enviar">
+					<input type="button" id="botao" class="interno" name="" value="Enviar">
+					<button type="button" id="limpar" class="interno" name="">Limpar Formulário</button>
 
 				</form>
 			</section>
@@ -69,6 +73,8 @@
 			<div><i class="fas fa-feather"></i>email@mailto.com</div>
 			<div><i class="fab fa-whatsapp"></i>(32)91234-5678</div>
 		</footer>
+
+		<script type="text/javascript" src="js/script.js"></script>
 
 	</body>
 </html>
