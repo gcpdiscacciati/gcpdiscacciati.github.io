@@ -2,6 +2,7 @@ console.log("Olá, esta página emitirá um alerta ao ser carregada.");
 if (document.title == "What's Your Game?") {
 	alert("Olá, seja bem-vindo ao What's Your Game!");
 	console.log(document.title)
+	console.log("Abaixo, o título da página será trocado e impresso na tela novamente:");
 	document.title = "What's Your Game? - Em construção";
 	console.log(document.title);
 	var titulo = document.querySelector("h1#primeiro");
@@ -40,14 +41,17 @@ if (document.title == "What's Your Game?") {
 }
 
 var copy = document.getElementById('copyright');
+console.log("Usando o 'getElementById' para mostrar o conteúdo da tag com id 'copyright':");
 console.log(copy.textContent);
 
 var classe_nivel2 = document.getElementsByClassName('nivel2');
+console.log("Abaixo será mostrado o conteúdo das tags com classe 'nivel2':");
 for (var i = 0; i < classe_nivel2.length; i++){
 	console.log(classe_nivel2[i].textContent);
 }
 
 var li = document.getElementsByTagName('li');
+console.log("Abaixo será mostrado o HTML das tags com nome 'li':");
 for (var i = 0; i < li.length; i++) {
 	console.log(li[i]);
 }
